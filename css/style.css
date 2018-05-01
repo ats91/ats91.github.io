@@ -1,5 +1,6 @@
 body{
 	background: black;
+	font-family: calibri;
 }
 
 .wrapper {
@@ -8,11 +9,13 @@ body{
 	background: teal;
 	padding: 10px;
 	color: white;
-	font-size: 115%;
+	font-size: 120%;
 }
 
 .img{
 	width: 30%;
+	float: left;
+	margin-right: 10px;
 }
 
 .menu {
@@ -39,11 +42,15 @@ body{
 	font-size: 90%;
 }
 
-a:link{
-	color: orangered;
+.list:link{
+	color: lime;
 }
 
-a:hover  {
+.list:visited{
+	color: lime;
+}
+
+.list:hover  {
 color: orangered;
 	background: black;
 }
