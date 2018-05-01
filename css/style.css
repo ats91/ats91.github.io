@@ -1,0 +1,54 @@
+body{
+	background: black;
+}
+
+.wrapper {
+	width: 80%;
+	margin: 10px auto;
+	background: teal;
+	padding: 10px;
+	color: white;
+	font-size: 115%;
+}
+
+.img{
+	width: 30%;
+}
+
+.menu {
+	width: 9.8%;
+	position: fixed;
+	top: 45%;
+	right: 0;
+	background: orangered;
+	color: white;
+}
+
+.menu a{
+	text-decoration: none;
+	color: white;
+}
+
+.menu li:hover {
+	color: aqua;
+	background: black;
+}
+
+.menu li{
+	padding-top: 3px;
+	font-size: 90%;
+}
+
+a:link{
+	color: orangered;
+}
+
+a:hover  {
+color: orangered;
+	background: black;
+}
+
+.btt:hover{
+	color: red;
+	background: black;
+}
