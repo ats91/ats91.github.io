@@ -42,6 +42,10 @@ body{
 	font-size: 90%;
 }
 
+.link{
+	color: lime;
+}
+
 .list:link{
 	color: lime;
 }
